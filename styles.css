@@ -1,0 +1,123 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Home section */
+#home {
+  text-align: center;
+  padding: 50px;
+  background-color: #f1f1f1;
+}
+
+#home h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Menu section */
+#menu {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+#menu h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#menu ul li {
+  margin: 0 10px;
+}
+
+/* About section */
+#about {
+  text-align: center;
+  padding: 50px;
+  background-color: #f1f1f1;
+}
+
+#about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Contact section */
+#contact {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#contact ul {
+  list-style: none;
+  text-align: center;
+}
+
+#contact ul li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
